@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my portfolio</h1>
+        <p>Je suis Nabil</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">index</a></li>
+            <li><a href="./php.html">php</a></li>
+            <li><a href="./sql.html">sql</a></li>
+            <li><a href="./contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Formulaire</h1>
+            <form>
+                Nom (obligatoire)<br />
+                <input type="text" name="Nom" required><br /><br />
+                Prénom (obligatoire)<br />
+                <input type="text" name="Prénom" required><br /><br />
+                Email (requis)<br />
+                <input type="email" name="Email" required><br /><br />
+                Age (minimum 3 ans, maximum 99 ans)<br />
+                <input type="number" name="Age" min="3" max="99"><br /><br />
+                Téléphone (10 caracteres)<br />
+                <input type="tel" name="Téléphone" pattern="[0-9]{10}" required><br /><br />
+                Sexe (selection, 1 choix possible<br />
+                <input type="radio" name="Sexe" value="Homme">Homme<br />
+                <input type="radio" name="Sexe" value="Femme">Femme<br />
+                <input type="radio" name="Sexe" value="Autre">Autre<br /><br />
+                Couleur préférée:<br />
+                <input type="color" name="Couleur préférée" value="#ff0000"><br /><br />
+                Date:<br />
+                <input type="datetime-local" name="Date" autocomplete="29/04/2019"><br /><br />
+                Technologie:<br />
+                <select name="Technologie">   
+                <option value="html">HTML</option>
+                <option value="php">PHP</option>
+                <option value="sql">SQL</option>
+                </select><br /><br />
+                Question:<br />
+                <textarea name="Question" rows="20" cols="100" required></textarea><br />
+                <br />
+                <input type="submit" value="Soumettre">
+            </form>
+    </section>
+    <aside>
+    </aside>
+    <footer>
+        <p>jean claude vandamme - 21 rue de la vanne, 92120 Montrouge - 01 65 65 65 65</p>
+    </footer>
+</body>
